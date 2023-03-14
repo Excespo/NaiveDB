@@ -1,0 +1,203 @@
+Start testing: Jun 12 04:12 UTC
+----------------------------------------------------------
+5/16 Testing: seq_scan_executor_test
+5/16 Test: seq_scan_executor_test
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/seq_scan_executor_test"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"seq_scan_executor_test" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+Value { type_: Type { type_id_: INT }, value_: 0 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Alice }, Value { type_: Type { type_id_: INT }, value_: 17 }
+Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Bob }, Value { type_: Type { type_id_: INT }, value_: 18 }
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 19 }
+Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 }
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"seq_scan_executor_test" end time: Jun 12 04:12 UTC
+"seq_scan_executor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/16 Testing: insert_executor_test
+6/16 Test: insert_executor_test
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/insert_executor_test"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"insert_executor_test" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+Value { type_: Type { type_id_: INT }, value_: 0 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Alice }, Value { type_: Type { type_id_: INT }, value_: 17 }
+Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Bob }, Value { type_: Type { type_id_: INT }, value_: 18 }
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 19 }
+Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 }
+Value { type_: Type { type_id_: INT }, value_: 4 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Eve }, Value { type_: Type { type_id_: INT }, value_: 21 }
+Value { type_: Type { type_id_: INT }, value_: 5 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Frank }, Value { type_: Type { type_id_: INT }, value_: 22 }
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"insert_executor_test" end time: Jun 12 04:12 UTC
+"insert_executor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/16 Testing: update_executor_test
+7/16 Test: update_executor_test
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/update_executor_test"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"update_executor_test" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+Value { type_: Type { type_id_: INT }, value_: 0 }, Value { type_: Type { type_id_: CHAR(20) }, value_: unknown }, Value { type_: Type { type_id_: INT }, value_: 999 }
+Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(20) }, value_: unknown }, Value { type_: Type { type_id_: INT }, value_: 999 }
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 19 }
+Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 }
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"update_executor_test" end time: Jun 12 04:12 UTC
+"update_executor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/16 Testing: filter_executor_test
+8/16 Test: filter_executor_test
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/filter_executor_test"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"filter_executor_test" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Bob }, Value { type_: Type { type_id_: INT }, value_: 18 }
+Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 }
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"filter_executor_test" end time: Jun 12 04:12 UTC
+"filter_executor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/16 Testing: projection_executor_test
+9/16 Test: projection_executor_test
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/projection_executor_test"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"projection_executor_test" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+Value { type_: Type { type_id_: CHAR(20) }, value_: Alice }, Value { type_: Type { type_id_: INT }, value_: 0 }
+Value { type_: Type { type_id_: CHAR(20) }, value_: Bob }, Value { type_: Type { type_id_: INT }, value_: 1 }
+Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 2 }
+Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 3 }
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"projection_executor_test" end time: Jun 12 04:12 UTC
+"projection_executor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/16 Testing: nested_loop_join_executor_test_without_predicate
+10/16 Test: nested_loop_join_executor_test_without_predicate
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/nested_loop_join_executor_test"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"nested_loop_join_executor_test_without_predicate" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+Value { type_: Type { type_id_: INT }, value_: 0 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Alice }, Value { type_: Type { type_id_: INT }, value_: 17 }, Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: INT }, value_: 100 }
+Value { type_: Type { type_id_: INT }, value_: 0 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Alice }, Value { type_: Type { type_id_: INT }, value_: 17 }, Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: INT }, value_: 200 }
+Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Bob }, Value { type_: Type { type_id_: INT }, value_: 18 }, Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: INT }, value_: 100 }
+Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Bob }, Value { type_: Type { type_id_: INT }, value_: 18 }, Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: INT }, value_: 200 }
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 19 }, Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: INT }, value_: 100 }
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 19 }, Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: INT }, value_: 200 }
+Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 }, Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: INT }, value_: 100 }
+Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 }, Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: INT }, value_: 200 }
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"nested_loop_join_executor_test_without_predicate" end time: Jun 12 04:12 UTC
+"nested_loop_join_executor_test_without_predicate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/16 Testing: nested_loop_join_executor_test_with_predicate
+11/16 Test: nested_loop_join_executor_test_with_predicate
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/nested_loop_join_executor_test" "1"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"nested_loop_join_executor_test_with_predicate" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 19 }, Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: INT }, value_: 100 }
+Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 }, Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: INT }, value_: 200 }
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"nested_loop_join_executor_test_with_predicate" end time: Jun 12 04:12 UTC
+"nested_loop_join_executor_test_with_predicate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/16 Testing: hash_join_executor_test
+12/16 Test: hash_join_executor_test
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/hash_join_executor_test"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"hash_join_executor_test" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+prepare hash on value: Value { type_: Type { type_id_: INT }, value_: 0 }, get 0, emplace done? true, key: Value { type_: Type { type_id_: INT }, value_: 0 }, tuple: Value { type_: Type { type_id_: INT }, value_: 0 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Alice }, Value { type_: Type { type_id_: INT }, value_: 17 }
+prepare hash on value: Value { type_: Type { type_id_: INT }, value_: 1 }, get 1, emplace done? true, key: Value { type_: Type { type_id_: INT }, value_: 1 }, tuple: Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Bob }, Value { type_: Type { type_id_: INT }, value_: 18 }
+prepare hash on value: Value { type_: Type { type_id_: INT }, value_: 2 }, get 2, emplace done? true, key: Value { type_: Type { type_id_: INT }, value_: 2 }, tuple: Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 19 }
+prepare hash on value: Value { type_: Type { type_id_: INT }, value_: 3 }, get 3, emplace done? true, key: Value { type_: Type { type_id_: INT }, value_: 3 }, tuple: Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 }
+find? Value { type_: Type { type_id_: INT }, value_: 2 }, at left tuple Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 19 } with right tuple Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: INT }, value_: 100 }
+find? Value { type_: Type { type_id_: INT }, value_: 3 }, at left tuple Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 } with right tuple Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: INT }, value_: 200 }
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Carol }, Value { type_: Type { type_id_: INT }, value_: 19 }, Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: INT }, value_: 100 }
+Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: CHAR(20) }, value_: Dave }, Value { type_: Type { type_id_: INT }, value_: 20 }, Value { type_: Type { type_id_: INT }, value_: 3 }, Value { type_: Type { type_id_: INT }, value_: 200 }
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"hash_join_executor_test" end time: Jun 12 04:12 UTC
+"hash_join_executor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/16 Testing: group_by_executor_test
+13/16 Test: group_by_executor_test
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/group_by_executor_test"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"group_by_executor_test" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+Value { type_: Type { type_id_: INT }, value_: 0 }, Value { type_: Type { type_id_: CHAR(10) }, value_: Chemistry }, Value { type_: Type { type_id_: INT }, value_: 90 }
+Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(10) }, value_: Chemistry }, Value { type_: Type { type_id_: INT }, value_: 70 }
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(10) }, value_: Chemistry }, Value { type_: Type { type_id_: INT }, value_: 100 }
+Value { type_: Type { type_id_: INT }, value_: 0 }, Value { type_: Type { type_id_: CHAR(10) }, value_: Physics }, Value { type_: Type { type_id_: INT }, value_: 85 }
+Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(10) }, value_: Physics }, Value { type_: Type { type_id_: INT }, value_: 65 }
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(10) }, value_: Physics }, Value { type_: Type { type_id_: INT }, value_: 95 }
+Value { type_: Type { type_id_: INT }, value_: 0 }, Value { type_: Type { type_id_: CHAR(10) }, value_: Math }, Value { type_: Type { type_id_: INT }, value_: 80 }
+Value { type_: Type { type_id_: INT }, value_: 1 }, Value { type_: Type { type_id_: CHAR(10) }, value_: Math }, Value { type_: Type { type_id_: INT }, value_: 60 }
+Value { type_: Type { type_id_: INT }, value_: 2 }, Value { type_: Type { type_id_: CHAR(10) }, value_: Math }, Value { type_: Type { type_id_: INT }, value_: 90 }
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"group_by_executor_test" end time: Jun 12 04:12 UTC
+"group_by_executor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/16 Testing: aggregate_executor_test
+14/16 Test: aggregate_executor_test
+Command: "/home/yijie/AI3613-Project-2022-Spring/build/tests/query/aggregate_executor_test"
+Directory: /home/yijie/AI3613-Project-2022-Spring/build/tests/query
+"aggregate_executor_test" start time: Jun 12 04:12 UTC
+Output:
+----------------------------------------------------------
+Value { type_: Type { type_id_: CHAR(10) }, value_: Chemistry }, Value { type_: Type { type_id_: INT }, value_: 100 }
+Value { type_: Type { type_id_: CHAR(10) }, value_: Physics }, Value { type_: Type { type_id_: INT }, value_: 95 }
+Value { type_: Type { type_id_: CHAR(10) }, value_: Math }, Value { type_: Type { type_id_: INT }, value_: 90 }
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"aggregate_executor_test" end time: Jun 12 04:12 UTC
+"aggregate_executor_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 12 04:12 UTC

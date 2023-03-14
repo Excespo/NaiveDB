@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/table_heap_test.dir/table_heap_test.cc.o -o table_heap_test  ../../libnaivedb.a /usr/lib/x86_64-linux-gnu/libfmt.so.7.1.3 -Wl,--as-needed 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/lru_replacer_test.dir/lru_replacer_test.cc.o -o lru_replacer_test  ../../libnaivedb.a /usr/lib/x86_64-linux-gnu/libfmt.so.7.1.3 -Wl,--as-needed 

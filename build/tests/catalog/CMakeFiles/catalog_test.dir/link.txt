@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/catalog_test.dir/catalog_test.cc.o -o catalog_test  ../../libnaivedb.a /usr/lib/x86_64-linux-gnu/libfmt.so.7.1.3 -Wl,--as-needed 

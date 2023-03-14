@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/hash_join_executor_test.dir/hash_join_executor_test.cc.o -o hash_join_executor_test  ../../libnaivedb.a /usr/lib/x86_64-linux-gnu/libfmt.so.7.1.3 -Wl,--as-needed 

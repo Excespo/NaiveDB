@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/buffer_manager_test.dir/buffer_manager_test.cc.o -o buffer_manager_test  ../../libnaivedb.a /usr/lib/x86_64-linux-gnu/libfmt.so.7.1.3 -Wl,--as-needed 
